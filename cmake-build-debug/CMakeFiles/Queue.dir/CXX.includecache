@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/408/data_structure/Stack&Queue/Queue/Header_file.h
+stdio.h
+-
+stdlib.h
+-
+malloc.h
+E:/408/data_structure/Stack&Queue/Queue/malloc.h
+SqQueue.h
+E:/408/data_structure/Stack&Queue/Queue/SqQueue.h
+LinkQueue.h
+E:/408/data_structure/Stack&Queue/Queue/LinkQueue.h
+
+E:/408/data_structure/Stack&Queue/Queue/LinkQueue.cpp
+cstddef
+-
+LinkQueue.h
+E:/408/data_structure/Stack&Queue/Queue/LinkQueue.h
+malloc.h
+E:/408/data_structure/Stack&Queue/Queue/malloc.h
+
+E:/408/data_structure/Stack&Queue/Queue/LinkQueue.h
+
+E:/408/data_structure/Stack&Queue/Queue/SqQueue.cpp
+SqQueue.h
+E:/408/data_structure/Stack&Queue/Queue/SqQueue.h
+
+E:/408/data_structure/Stack&Queue/Queue/SqQueue.h
+
+E:/408/data_structure/Stack&Queue/Queue/main.cpp
+Header_file.h
+E:/408/data_structure/Stack&Queue/Queue/Header_file.h
+
